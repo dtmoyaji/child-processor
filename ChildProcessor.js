@@ -1,14 +1,14 @@
 /**
- * 概要:
- * ファイルを読み込んで子プロセスで実行するクラス
- * 
- * 使用例:
- * let childProcessor = new ChildProcessor();
- * await childProcessor.run(filePath);
- * 
- * @author R. Ichiro Tanaka
- * @description ファイルを読み込み、子プロセスで実行し結果をJSON形式で返す
- */
+* 概要:
+* ファイルを読み込んで子プロセスで実行するクラス
+* 
+* 使用例:
+* let childProcessor = new ChildProcessor();
+* await childProcessor.run(filePath);
+* 
+* @author R. Ichiro Tanaka
+* @description ファイルを読み込み、子プロセスで実行し結果をJSON形式で返す
+*/
 
 import { spawn } from 'child_process';
 import path from 'path';
@@ -78,3 +78,4 @@ class ChildProcessor {
 export {
     ChildProcessor
 };
+
