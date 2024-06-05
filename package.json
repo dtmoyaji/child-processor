@@ -1,0 +1,10 @@
+{
+  "name": "child-processor",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "ChildProcessor.js",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
